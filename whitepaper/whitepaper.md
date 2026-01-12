@@ -74,6 +74,8 @@ During the pre-token phase, contributions are evaluated by the GameForge Core Re
 
 This model prioritises quality control and accountability over decentralisation theatre.
 
+Core Review Group members will be disclosed publicly before the first Build Request intake opens, including relevant background or credentials, to ensure accountability during the pre-token phase.
+
 ### What Counts as a Contribution
 
 Contributions are evaluated against published criteria, including:
@@ -129,7 +131,7 @@ It **is** a coordination and attribution process.
 
 3. **Fulfilment**: Approved contributors engage within defined scope.
 
-4. **Attribution**: Accepted contributions are documented publicly and recorded as participation credit.
+4. **Attribution**: Accepted contributions are documented publicly and recorded as participation credit. In the pre-token phase, participation credit is recorded in a publicly accessible ledger (e.g. a GitHub repository or similar system) and used to prioritise future Build Requests and contributor access.
 
 ### Example
 
@@ -253,7 +255,7 @@ GameForge aims to increase the quality and sustainability of future Solana launc
 ## Team & Accountability
 
 GameForge is led by a small accountable core team with experience across development, coordination, and ecosystem building.
-Team details will be disclosed prior to any on-chain deployment.
+Core team members will be disclosed publicly prior to the opening of Build Request intake, ensuring accountability during the operational phase.
 
 ---
 
@@ -275,9 +277,10 @@ Execution precedes ideology.
 | v0.2 | January 2026 | Token overview added |
 | v0.3 | January 2026 | Treasury reserve and transparency section |
 | v0.4 | January 2026 | Contribution model, Build Requests, traction plan |
+| v0.4.1 | January 2026 | CRG disclosure timeline, participation credit definition, team disclosure commitment |
 
 ---
 
-*Document Version: 0.4 (Draft)*
+*Document Version: 0.4.1 (Draft)*
 
 *Last Updated: January 2026*
