@@ -186,6 +186,8 @@ All capital is held in transparent treasury reserves, intended solely for:
 
 Public wallet addresses will be published. Treasury use is documented and auditable.
 
+Primary Solana Name Service (SNS) identity: GameForgeToken.sol
+
 ---
 
 ## Why Solana
@@ -278,9 +280,10 @@ Execution precedes ideology.
 | v0.3 | January 2026 | Treasury reserve and transparency section |
 | v0.4 | January 2026 | Contribution model, Build Requests, traction plan |
 | v0.4.1 | January 2026 | CRG disclosure timeline, participation credit definition, team disclosure commitment |
+| v0.4.2 | January 2026 | Added SNS identity reference |
 
 ---
 
-*Document Version: 0.4.1 (Draft)*
+*Document Version: 0.4.2 (Draft)*
 
 *Last Updated: January 2026*
