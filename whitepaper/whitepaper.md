@@ -1,386 +1,283 @@
 # GameForge Token (GFT)
 
-**A Play-to-Build Ecosystem for Decentralized Game Development**
+**A Play-to-Build Coordination Layer for Decentralized Game Development**
 
 ---
 
 > **Project Status Notice**
 >
-> GameForge Token is currently in pre-mainnet development.
+> GameForge Token (GFT) is in pre-mainnet development.
 >
-> - The GFT token is not live
-> - No public sale, private sale, or token distribution has occurred
+> - No token is live
+> - No public or private sale has occurred
 > - No smart contracts have been deployed to mainnet
-> - Smart contracts are under development and will undergo testing prior to any public deployment
-> - The project is currently preparing for testnet and limited mainnet testing
+> - No liquidity pools exist
+> - No yield, profit-sharing, or speculative mechanisms are implemented
 >
-> This document is provided solely for transparency and technical overview purposes and does not constitute an offer of securities, financial advice, or investment solicitation.
+> This document is provided solely for transparency and technical overview purposes. It does not constitute financial advice, an offer of securities, or an investment solicitation.
 
 ---
 
 ## Executive Summary
 
-GameForge Token (GFT) is a proposed blockchain-based ecosystem intended to support decentralized game development through a play-to-build model. The project is being designed to provide infrastructure that would connect game developers, asset creators, and players within a shared economic framework.
+GameForge is a coordination and attribution project designed to reduce the capital barrier faced by ambitious game developers building on Solana.
 
-The objective of GameForge is to establish a system where contributors at various stages of game development—including independent developers, asset creators, and playtesters—can receive attribution and compensation for verifiable contributions. These mechanisms are currently under design and will be implemented following testing and review.
+Rather than funding projects through grants or speculative token launches, GameForge introduces a play-to-build model in which developers and contributors access ecosystem resources through verified participation and contribution.
 
-This document provides an overview of the project's planned technical architecture, proposed economic model, and development roadmap for evaluation by grant programs, launchpad reviewers, and prospective ecosystem participants.
+The GFT token, if and when deployed, is intended to function as a non-financial coordination primitive — enabling fair prioritisation, attribution, and access control once manual processes no longer scale.
+
+GameForge is deliberately conservative in scope, prioritising transparency, accountability, and ecosystem value over financialisation.
 
 ---
 
 ## Problem Statement
 
-The current game development landscape presents several structural challenges:
+Independent game developers frequently face the same structural constraints:
 
 | Challenge | Description |
 |-----------|-------------|
-| High barriers to entry | Independent developers face significant capital requirements for game development and distribution |
-| Fragmented tooling | Game assets, development tools, and distribution channels operate in siloed ecosystems |
-| Misaligned incentives | Early contributors (testers, community members, asset creators) often receive no economic participation in successful projects |
-| Centralized gatekeeping | Distribution platforms extract significant fees and control access to markets |
-| Limited composability | Game assets and progress are typically locked within individual game environments |
+| Capital dependency | Early progress is often gated by funding rather than capability |
+| Fragmented support | Playtesting, feedback, and collaboration lack coordination |
+| Incentive misalignment | Contributors provide value without durable attribution |
+| Premature tokenisation | Financial instruments are deployed before systems are proven |
+| Centralised gatekeeping | Access to visibility and resources is arbitrated informally |
 
-[Additional project-specific problem analysis to be inserted]
-
-These factors have contributed to limited long-term sustainability and trust challenges across many existing game development and GameFi ecosystems.
+These constraints disproportionately affect builders with strong ideas but limited capital.
 
 ---
 
 ## The GameForge Approach: Play-to-Build
 
-GameForge introduces a play-to-build model that restructures the relationship between game creation and participation.
+GameForge restructures early-stage development support around contribution rather than capital.
 
-### Core Principles
+### Core Principles (v1)
 
-1. **Contribution-Based Rewards** (Planned): Participants would earn through verifiable contributions to game development, including asset creation, testing, documentation, and community support. Reward mechanisms are under design and will be implemented following testing.
+1. **Contribution-First Access**: Access to ecosystem resources is earned through participation, not payment.
 
-2. **Modular Game Components** (Planned): Games built on GameForge would utilize standardized, interoperable components that can be reused across projects.
+2. **Manual-First Coordination**: Systems remain off-chain until demand and patterns justify protocolisation.
 
-3. **Transparent Attribution** (Planned): Contributions would be recorded on-chain, establishing clear provenance and enabling fair compensation.
+3. **Explicit Accountability**: Early coordination is intentionally curated to maintain quality and trust.
 
-4. **Community Governance** (Planned): Token holders would participate in ecosystem decisions through structured governance mechanisms. Governance structures are under design and will be implemented following testing.
-
-### How It Works
-
-[Detailed workflow description to be inserted]
-
-| Participant Role | Contribution Type | Mechanism |
-|-----------------|-------------------|-----------|
-| Developers | Code, game logic, smart contracts | [To be defined] |
-| Asset Creators | Art, audio, 3D models | [To be defined] |
-| Playtesters | Bug reports, gameplay feedback | [To be defined] |
-| Community | Documentation, localization, support | [To be defined] |
+4. **Conditional Token Deployment**: Tokenisation occurs only if coordination complexity requires it.
 
 ---
 
-## Token Overview (v1)
+## Contribution Evaluation Model (v1 – Pre-Token)
 
-This section describes the intended purpose and constraints of the GFT token in its initial version. The token is designed as a coordination and attribution mechanism, not as a financial instrument.
+### Evaluation Authority
+
+During the pre-token phase, contributions are evaluated by the GameForge Core Review Group (CRG):
+
+- 1–3 accountable maintainers
+- Publicly named or pseudonymous with disclosed credentials
+- Decisions documented transparently
+
+This model prioritises quality control and accountability over decentralisation theatre.
+
+### What Counts as a Contribution
+
+Contributions are evaluated against published criteria, including:
+
+- Relevance to an approved Build Request
+- Completeness and effort
+- Practical or technical usefulness
+- Signal-to-noise ratio
+- Timeliness and clarity
+
+Low-effort or spam contributions are rejected.
+
+### Dispute Handling
+
+- Disputes are reviewed by a second CRG member
+- Decisions are final in the pre-token phase
+- Outcomes are documented publicly
+
+### Evolution Path
+
+Decentralisation is phased, not promised.
+
+Only after:
+
+- Sustained coordination demand
+- Repeated contribution patterns
+- Observable scaling pressure
+
+…will peer review, weighting, or limited on-chain enforcement be considered.
+
+---
+
+## Build Requests (Core Coordination Primitive)
+
+### Definition
+
+A Build Request is a structured request by a developer for defined ecosystem support, coordinated through GameForge.
+
+It is **not**:
+
+- A grant
+- A bounty
+- A job posting
+- A financial reward mechanism
+
+It **is** a coordination and attribution process.
+
+### Build Request Lifecycle (v1)
+
+1. **Submission**: Builder submits scope, objective, and requested support (e.g. playtesting, review).
+
+2. **Review**: CRG evaluates seriousness, feasibility, and relevance.
+
+3. **Fulfilment**: Approved contributors engage within defined scope.
+
+4. **Attribution**: Accepted contributions are documented publicly and recorded as participation credit.
+
+### Example
+
+A solo developer submits a Build Request for structured playtesting of a prototype.
+Five contributors provide feedback within a defined framework.
+Their contributions are reviewed, accepted, and documented.
+Contributors receive participation credit usable for future access and prioritisation.
+
+---
+
+## Token Overview (GFT v1)
 
 ### Token Status
 
-| Status Item | Current State |
-|-------------|---------------|
+| Item | State |
+|------|-------|
 | Token live | No |
-| Smart contracts deployed | No |
-| Public sale conducted | No |
-| Private sale conducted | No |
-| Token distribution occurred | No |
+| Distribution | None |
+| Smart contracts | Not deployed |
+| Liquidity pools | None |
 
 ### Token Purpose
 
-The GFT token is intended to function as a **contribution-weighted coordination token** within the GameForge ecosystem. Its primary purpose is to:
+GFT is intended to function as a **contribution-weighted coordination token**, enabling:
 
-1. **Attribution**: Provide on-chain records of contributor participation and activity within the ecosystem
-2. **Participation Weighting**: Weight contributor input in ecosystem decisions proportional to verified contributions
-3. **Access Gating**: Gate access to specific ecosystem features, tools, or contributor tiers based on participation level
+- Attribution persistence
+- Request prioritisation
+- Access gating to ecosystem resources
 
-### What the Token Does (v1 Scope)
+GFT does not represent ownership, profit, yield, or financial claims.
 
-| Function | Description | Status |
-|----------|-------------|--------|
-| Contribution Attribution | Record and represent verified contributions to the ecosystem | Planned |
-| Participation Weighting | Weight input in governance or coordination decisions | Planned |
-| Feature Access | Gate access to contributor tools, beta features, or ecosystem resources | Planned |
+### Explicit Non-Scope
 
-### What the Token Does NOT Do
-
-The following are explicitly out of scope for the GFT token:
-
-- **Not a currency**: GFT is not designed to function as a medium of exchange for general transactions
-- **Not an investment**: GFT does not represent equity, profit-sharing, or any claim on project revenues
-- **Not yield-bearing**: GFT does not generate passive returns, interest, or dividends
-- **Not speculative**: The token is not designed for trading or price appreciation
-- **No guaranteed value**: There is no representation that GFT will have or maintain any monetary value
-
-### Design Constraints
-
-The token design follows these constraints:
-
-- **Utility-first**: All token functions are tied to ecosystem participation and coordination
-- **Minimal scope**: v1 implements only core attribution and coordination functions
-- **Non-financial framing**: The token is framed and implemented as a coordination tool, not a financial asset
-- **Contribution-weighted**: Token distribution and weighting are tied to verifiable ecosystem contributions
-
-### Token Distribution
-
-No token distribution has occurred. Distribution mechanisms are under design and will be published prior to any deployment.
+- Not a currency
+- Not an investment
+- No yield or dividends
+- No trading focus
+- No guaranteed value
 
 ---
 
-## Treasury Reserve & On-Chain Transparency
+## Treasury Model
 
-GameForge operates a treasury-only capital structure. All project funds are held in transparent reserve wallets used exclusively for ecosystem operations and development. This section clarifies the operational model and what GameForge explicitly does not do.
+GameForge operates without liquidity pools.
 
-### What GameForge Does NOT Operate
+All capital is held in transparent treasury reserves, intended solely for:
 
-The following mechanisms are explicitly out of scope for GameForge:
+- Ecosystem operations
+- Research & development
+- Shared tooling
+- Contributor support
 
-| Mechanism | Status |
-|-----------|--------|
-| Liquidity pools | Not operated |
-| LP tokens | Not issued |
-| Price discovery mechanisms | Not implemented |
-| Market-making operations | Not conducted |
-| Leverage or borrowing facilities | Not offered |
-| Yield generation mechanisms | Not implemented |
-
-### Treasury Model
-
-GameForge maintains an operational reserve structure:
-
-- **Treasury-only capital**: All funds are held in designated treasury wallets, not deployed to external protocols or pools
-- **Operational use only**: Treasury funds are allocated exclusively to:
-  - Ecosystem operations
-  - Research and development
-  - Tooling and infrastructure
-  - Shared ecosystem resources
-- **No external deployment**: Treasury capital is not deposited into third-party DeFi protocols, liquidity pools, or yield-generating mechanisms
-
-### On-Chain Transparency
-
-To support accountability and auditability:
-
-- Treasury wallet addresses will be published and made publicly accessible
-- All treasury transactions will be verifiable on-chain
-- Reserve balances can be independently audited at any time
-- No off-chain or custodial holdings are planned for operational funds
-
-### Treasury Constraints
-
-The treasury operates under the following constraints:
-
-- **Non-speculative**: Treasury funds are not used for trading, arbitrage, or speculative activities
-- **Non-leveraged**: No borrowing, lending, or leverage is employed
-- **Contribution-aligned**: Treasury allocation priorities are determined by ecosystem development needs and, where applicable, community governance input
+Public wallet addresses will be published. Treasury use is documented and auditable.
 
 ---
 
-## System Architecture Overview
+## Why Solana
 
-The GameForge ecosystem consists of several interconnected components:
+Solana is selected for:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Application Layer                     │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐     │
-│  │ Game Client │  │  Developer  │  │  Asset      │     │
-│  │ Interface   │  │  Portal     │  │  Marketplace│     │
-│  └─────────────┘  └─────────────┘  └─────────────┘     │
-├─────────────────────────────────────────────────────────┤
-│                    Protocol Layer                        │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐     │
-│  │ Contribution│  │  Asset      │  │  Governance │     │
-│  │ Tracking    │  │  Registry   │  │  Module     │     │
-│  └─────────────┘  └─────────────┘  └─────────────┘     │
-├─────────────────────────────────────────────────────────┤
-│                    Blockchain Layer                      │
-│              [Chain selection to be finalized]          │
-└─────────────────────────────────────────────────────────┘
-```
+- Low-cost interactions
+- High throughput coordination
+- Strong game-focused developer ecosystem
+- Long-term composability
 
-### Component Descriptions
-
-| Component | Function | Status |
-|-----------|----------|--------|
-| Game Client Interface | End-user application for gameplay and contribution | In development |
-| Developer Portal | Tools and SDK for game creation | In development |
-| Asset Marketplace | Decentralized exchange for game assets | Planned |
-| Contribution Tracking | On-chain record of participant contributions | In development |
-| Asset Registry | Provenance and ownership records for game assets | Planned |
-| Governance Module | Proposal and voting mechanisms (to be implemented following testing) | Planned |
+GameForge aims to support builders before they raise capital or launch products, strengthening Solana's pipeline upstream.
 
 ---
 
-## Technology Stack
+## Early Traction Plan (First 90 Days)
 
-Blockchain and tooling selections are being evaluated based on scalability, developer ecosystem, security, and long-term maintainability.
+### Goal
 
-### Blockchain Infrastructure
+Validate contribution-based coordination before token deployment.
 
-| Component | Selection | Rationale |
-|-----------|-----------|-----------|
-| Base Layer | [To be finalized] | [Evaluation criteria to be inserted] |
-| Smart Contract Language | [To be finalized] | [To be inserted] |
-| Storage Solution | [To be finalized] | [To be inserted] |
+### Month 1 — Foundation
 
-### Development Frameworks
+- Finalise documentation
+- Open Build Request intake
+- Onboard 5–10 builders and contributors
+- Publish all activity publicly
 
-[Technical stack details to be inserted]
+**Metric**: First completed Build Requests
 
-### Security Considerations
+### Month 2 — Validation
 
-- Smart contract audits will be conducted by [Audit firm(s) to be selected] prior to mainnet deployment
-- Bug bounty program specifications: [To be defined]
-- Upgrade mechanisms and timelocks: [To be defined]
+- Run multiple coordination cycles
+- Measure quality and engagement
+- Publish weekly transparency updates
 
----
+**Metric**: Repeat participation
 
-## Tokenomics
+### Month 3 — Readiness
 
-### Token Specifications
+- Identify scaling pressure
+- Assess need for protocolisation
+- Prepare testnet contracts only if justified
 
-| Attribute | Value |
-|-----------|-------|
-| Token Name | GameForge Token |
-| Symbol | GFT |
-| Token Standard | [To be finalized] |
-| Total Supply | [To be finalized] |
-| Initial Circulating Supply | [To be finalized] |
-
-### Allocation
-
-| Category | Percentage | Vesting Schedule |
-|----------|------------|------------------|
-| Ecosystem Development | [TBD]% | [To be defined] |
-| Team & Advisors | [TBD]% | [To be defined] |
-| Community Treasury | [TBD]% | [To be defined] |
-| Public Distribution | [TBD]% | [To be defined] |
-| Reserve | [TBD]% | [To be defined] |
-
-### Token Utility
-
-The GFT token is intended to serve the following functions within the ecosystem. These mechanisms are planned and will be implemented following testing and review:
-
-1. **Governance** (Planned): Voting rights on protocol parameters and treasury allocation. Governance structures are under design.
-2. **Staking** (Planned): [Staking mechanism to be defined]. Staking functionality will be implemented following testing.
-3. **Transaction Medium** (Planned): Payment for marketplace transactions and platform services
-4. **Contribution Rewards** (Planned): Distribution to ecosystem contributors. Reward mechanisms are under design.
-
-[Detailed utility mechanics to be inserted]
-
-### Token Supply Controls
-
-- Total token supply is intended to be fixed at deployment
-- No additional minting functionality is planned
-- Mint authority is intended to be revoked following deployment and verification
+**Metric**: Clear coordination bottlenecks
 
 ---
 
-## Roadmap
+## Alignment With Solanium
 
-The following milestones represent planned development phases. All timelines are estimates and subject to revision based on development progress, audit outcomes, and ecosystem requirements. Completion of any phase is not guaranteed.
+GameForge seeks Solanium's support as an ecosystem-aligned platform for:
 
-### Phase 1: Foundation
+- Early visibility
+- Credibility signaling
+- Advisory feedback
 
-- [ ] Core smart contract development
-- [ ] Security audit completion
-- [ ] Testnet deployment
-- [ ] Developer documentation
+**Not for**:
 
-### Phase 2: Infrastructure
+- Liquidity
+- Trading
+- Price discovery
 
-- [ ] Mainnet token deployment (subject to audit and review)
-- [ ] Developer portal beta
-- [ ] Contribution tracking system
-- [ ] Initial governance implementation (subject to testing)
-
-### Phase 3: Ecosystem Growth
-
-- [ ] Asset marketplace deployment (subject to audit and review)
-- [ ] SDK public release
-- [ ] First partner game integrations
-- [ ] Expanded governance features (subject to testing)
-
-### Phase 4: Maturation
-
-- [ ] Cross-chain functionality
-- [ ] Advanced composability features
-- [ ] Ecosystem grant program
-- [ ] [Additional milestones to be defined]
+GameForge aims to increase the quality and sustainability of future Solana launches by supporting builders at the earliest stage.
 
 ---
 
-## Team & Transparency
+## Team & Accountability
 
-### Core Team
-
-| Role | Background | Public Identity |
-|------|------------|-----------------|
-| [Role] | [Experience summary to be inserted] | [Name/Pseudonym] |
-| [Role] | [Experience summary to be inserted] | [Name/Pseudonym] |
-| [Role] | [Experience summary to be inserted] | [Name/Pseudonym] |
-
-### Advisors
-
-[Advisor information to be inserted]
-
-### Legal Structure
-
-- Legal Entity: [To be established]
-- Jurisdiction: [To be determined]
-- Regulatory Approach: [To be defined]
-
-### Transparency Commitments
-
-- Regular development updates via [channels to be defined]
-- Public treasury wallet addresses: [To be published]
-- Open-source repositories: [To be published]
+GameForge is led by a small accountable core team with experience across development, coordination, and ecosystem building.
+Team details will be disclosed prior to any on-chain deployment.
 
 ---
 
-## Risk Considerations
+## Closing Statement
 
-Prospective participants should carefully consider the following risks:
+GameForge is an ambition-first coordination layer designed to unlock capability, not financial upside.
 
-### Technical Risks
-
-- **Smart Contract Vulnerabilities**: Despite audits, smart contracts may contain undiscovered bugs or security flaws
-- **Scalability Limitations**: The underlying blockchain infrastructure may face congestion or performance issues
-- **Integration Complexity**: Third-party dependencies may introduce unforeseen technical challenges
-
-### Regulatory Risks
-
-- **Evolving Regulations**: Cryptocurrency and token regulations vary by jurisdiction and are subject to change
-- **Compliance Requirements**: Future regulatory developments may require modifications to the token structure or ecosystem operations
-
-### Market Risks
-
-- **Adoption Uncertainty**: The ecosystem's success depends on developer and user adoption, which cannot be guaranteed
-- **Competitive Landscape**: Alternative solutions may emerge that reduce demand for GameForge services
-
-### Operational Risks
-
-- **Team Execution**: The project's success depends on the team's ability to deliver on technical and business objectives
-- **Resource Constraints**: Development progress is subject to available funding and human resources
-- **Dependency Risk**: Dependency risk related to third-party infrastructure, tooling, or future ecosystem contributors
-
-### General Disclaimer
-
-This whitepaper is provided for informational purposes only and does not constitute financial, legal, or investment advice. Participation in the GameForge ecosystem involves significant risks, and individuals should conduct independent research and consult qualified advisors before making any decisions.
+Tokenisation is conditional.
+Transparency is default.
+Execution precedes ideology.
 
 ---
 
 ## Revision History
 
-| Version | Date | Changes |
-|---------|------|---------|
+| Version | Date | Notes |
+|---------|------|-------|
 | v0.1 | — | Initial draft |
-| v0.2 | January 2026 | Added Token Overview section clarifying purpose, constraints, and v1 scope. No changes to roadmap, timelines, or launch assumptions. |
-| v0.3 | January 2026 | Added Treasury Reserve & On-Chain Transparency section. Clarified treasury-only capital structure, explicit exclusion of liquidity pools, LP tokens, price discovery, market-making, and leverage. No changes to token design, roadmap, or launch assumptions. |
+| v0.2 | January 2026 | Token overview added |
+| v0.3 | January 2026 | Treasury reserve and transparency section |
+| v0.4 | January 2026 | Contribution model, Build Requests, traction plan |
 
 ---
 
-*Document Version: 0.3 (Draft)*
+*Document Version: 0.4 (Draft)*
 
 *Last Updated: January 2026*
