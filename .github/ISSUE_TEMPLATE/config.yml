@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Questions
+    url: https://github.com/j96036128-rgb/gameforgetoken-docs/discussions
+    about: Ask questions or discuss GameForge in Discussions
+  - name: X (Twitter)
+    url: https://x.com/gameforgetoken
+    about: Reach out via X for quick questions
