@@ -128,6 +128,54 @@ No token distribution has occurred. Distribution mechanisms are under design and
 
 ---
 
+## Treasury Reserve & On-Chain Transparency
+
+GameForge operates a treasury-only capital structure. All project funds are held in transparent reserve wallets used exclusively for ecosystem operations and development. This section clarifies the operational model and what GameForge explicitly does not do.
+
+### What GameForge Does NOT Operate
+
+The following mechanisms are explicitly out of scope for GameForge:
+
+| Mechanism | Status |
+|-----------|--------|
+| Liquidity pools | Not operated |
+| LP tokens | Not issued |
+| Price discovery mechanisms | Not implemented |
+| Market-making operations | Not conducted |
+| Leverage or borrowing facilities | Not offered |
+| Yield generation mechanisms | Not implemented |
+
+### Treasury Model
+
+GameForge maintains an operational reserve structure:
+
+- **Treasury-only capital**: All funds are held in designated treasury wallets, not deployed to external protocols or pools
+- **Operational use only**: Treasury funds are allocated exclusively to:
+  - Ecosystem operations
+  - Research and development
+  - Tooling and infrastructure
+  - Shared ecosystem resources
+- **No external deployment**: Treasury capital is not deposited into third-party DeFi protocols, liquidity pools, or yield-generating mechanisms
+
+### On-Chain Transparency
+
+To support accountability and auditability:
+
+- Treasury wallet addresses will be published and made publicly accessible
+- All treasury transactions will be verifiable on-chain
+- Reserve balances can be independently audited at any time
+- No off-chain or custodial holdings are planned for operational funds
+
+### Treasury Constraints
+
+The treasury operates under the following constraints:
+
+- **Non-speculative**: Treasury funds are not used for trading, arbitrage, or speculative activities
+- **Non-leveraged**: No borrowing, lending, or leverage is employed
+- **Contribution-aligned**: Treasury allocation priorities are determined by ecosystem development needs and, where applicable, community governance input
+
+---
+
 ## System Architecture Overview
 
 The GameForge ecosystem consists of several interconnected components:
@@ -329,9 +377,10 @@ This whitepaper is provided for informational purposes only and does not constit
 |---------|------|---------|
 | v0.1 | — | Initial draft |
 | v0.2 | January 2026 | Added Token Overview section clarifying purpose, constraints, and v1 scope. No changes to roadmap, timelines, or launch assumptions. |
+| v0.3 | January 2026 | Added Treasury Reserve & On-Chain Transparency section. Clarified treasury-only capital structure, explicit exclusion of liquidity pools, LP tokens, price discovery, market-making, and leverage. No changes to token design, roadmap, or launch assumptions. |
 
 ---
 
-*Document Version: 0.2 (Draft)*
+*Document Version: 0.3 (Draft)*
 
 *Last Updated: January 2026*
