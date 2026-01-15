@@ -194,6 +194,14 @@ Public wallet addresses will be published. Treasury use is documented and audita
 
 Primary Solana Name Service (SNS) identity: GameForgeToken.sol
 
+### Coordination Channels
+
+- **Telegram:** https://t.me/gameforgecoordination (@gameforgecoordination)
+- **X (Twitter):** https://x.com/gameforgetoken (@gameforgetoken)
+- **GitHub:** https://github.com/j96036128-rgb/gameforgetoken-docs
+
+Primary coordination channel: Telegram — https://t.me/gameforgecoordination
+
 ---
 
 ## Why Solana
@@ -337,9 +345,10 @@ Execution precedes ideology.
 | v0.4.3 | January 2026 | Named team and CRG accountability disclosure |
 | v0.4.4 | January 2026 | Added Stop Conditions for token deployment |
 | v0.4.5 | January 2026 | Added founder statement |
+| v0.4.6 | January 2026 | Added official Telegram coordination channel |
 
 ---
 
-*Document Version: 0.4.5 (Draft)*
+*Document Version: 0.4.6 (Draft)*
 
 *Last Updated: January 2026*

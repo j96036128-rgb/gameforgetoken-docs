@@ -51,3 +51,4 @@ All entries are recorded manually by the GameForge Core Review Group.
 - [Whitepaper](../whitepaper/whitepaper.md)
 - [Website](https://gameforgetoken.com)
 - [X (Twitter)](https://x.com/gameforgetoken)
+- [Telegram (Coordination)](https://t.me/gameforgecoordination)

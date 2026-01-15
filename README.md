@@ -55,7 +55,8 @@ Build Requests are a coordination tool for matching builders with contributors. 
 For questions, collaboration inquiries, or research discussion:
 
 - X (Twitter): https://x.com/GameForgeToken
-- Website: Coming soon
+- Telegram (Coordination): https://t.me/gameforgecoordination
+- Website: https://gameforgetoken.com
 
 ---
 
