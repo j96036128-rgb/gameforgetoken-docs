@@ -292,6 +292,28 @@ If these conditions are not satisfied, GameForge Token will remain a research in
 
 ---
 
+## Why I'm Building GameForge
+
+I'm not building GameForge because I believe every project needs a token.
+
+I'm building it because I don't believe most crypto projects are honest about coordination, incentives, or when a token is actually justified.
+
+GameForge is an attempt to test that properly.
+
+We're running coordination in public, without a live token, to understand:
+
+- What builders actually need
+- Where incentives help or harm
+- Whether on-chain mechanisms add real value or just complexity
+
+If this experiment shows that a token improves outcomes, we'll proceed carefully. If it doesn't, we won't deploy one.
+
+That's the point.
+
+— Jon McMahon, Founder
+
+---
+
 ## Closing Statement
 
 GameForge is an ambition-first coordination layer designed to unlock capability, not financial upside.
@@ -314,9 +336,10 @@ Execution precedes ideology.
 | v0.4.2 | January 2026 | Added SNS identity reference |
 | v0.4.3 | January 2026 | Named team and CRG accountability disclosure |
 | v0.4.4 | January 2026 | Added Stop Conditions for token deployment |
+| v0.4.5 | January 2026 | Added founder statement |
 
 ---
 
-*Document Version: 0.4.4 (Draft)*
+*Document Version: 0.4.5 (Draft)*
 
 *Last Updated: January 2026*
