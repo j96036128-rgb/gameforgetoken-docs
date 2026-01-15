@@ -40,6 +40,16 @@ This repository is provided for documentation and transparency purposes only.
 
 ---
 
+## 🛠️ For Builders
+
+Want to request structured support for your game project?
+
+👉 **[How to Submit a Build Request](HOW-TO-SUBMIT-BUILD-REQUEST.md)**
+
+Build Requests are a coordination tool for matching builders with contributors. They are not grants or funding mechanisms.
+
+---
+
 ## 📬 Contact
 
 For questions, collaboration inquiries, or research discussion:
