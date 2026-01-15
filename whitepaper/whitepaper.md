@@ -274,6 +274,24 @@ CRG membership and team accountability are disclosed prior to accepting external
 
 ---
 
+## Stop Conditions
+
+GameForge Token is an experiment in coordination, not a guaranteed product.
+
+The project will not proceed to token deployment if the following conditions are not met:
+
+1. **No demonstrated improvement over off-chain tools.** After multiple completed Build Requests, there is no clear evidence that on-chain coordination improves outcomes compared to off-chain tools (e.g. GitHub + human review).
+
+2. **Fair evaluation not achievable.** If contributor behaviour cannot be evaluated fairly and consistently without introducing extractive or speculative incentives.
+
+3. **Coordination demand insufficient.** If coordination demand does not exceed what can be handled transparently through off-chain processes.
+
+4. **Speculative capture.** If introducing a token would primarily benefit speculative participants rather than active builders and contributors.
+
+If these conditions are not satisfied, GameForge Token will remain a research initiative and will not deploy a live token.
+
+---
+
 ## Closing Statement
 
 GameForge is an ambition-first coordination layer designed to unlock capability, not financial upside.
@@ -295,9 +313,10 @@ Execution precedes ideology.
 | v0.4.1 | January 2026 | CRG disclosure timeline, participation credit definition, team disclosure commitment |
 | v0.4.2 | January 2026 | Added SNS identity reference |
 | v0.4.3 | January 2026 | Named team and CRG accountability disclosure |
+| v0.4.4 | January 2026 | Added Stop Conditions for token deployment |
 
 ---
 
-*Document Version: 0.4.3 (Draft)*
+*Document Version: 0.4.4 (Draft)*
 
 *Last Updated: January 2026*
