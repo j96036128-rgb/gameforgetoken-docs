@@ -14,6 +14,7 @@ This directory records participation in GameForge Build Requests during the pre-
 |------|-------------|
 | `ledger.csv` | Master record of all accepted contributions |
 | `build-request-XXX.md` | Individual Build Request specifications |
+| `contributions/` | Detailed contribution records |
 | `WORKSPACE-MODEL.md` | How developers and contributors work together |
 
 ## How Entries Are Added

@@ -37,3 +37,13 @@ Test whether structured, contribution-based coordination can deliver useful feed
 - At least one completed Build Request
 - Actionable feedback delivered to the builder
 - Contributions documented publicly
+
+---
+
+## Contribution Log
+
+| ID | Contributor | Role | Summary | Date | Status |
+|----|-------------|------|---------|------|--------|
+| [BR-001-CONTRIB-001](contributions/BR-001-CONTRIB-001.md) | @core-contributor | Documentation | Builder onboarding guide | 2026-01-15 | Accepted |
+
+*This is initial system validation, not external traction.*
