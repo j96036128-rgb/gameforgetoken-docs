@@ -228,11 +228,16 @@ The following milestones represent planned development phases. All timelines are
 - Jurisdiction: [To be determined]
 - Regulatory Approach: [To be defined]
 
+### Core Review Group (CRG)
+
+The Core Review Group evaluates contributions during the pre-token phase. CRG members will be publicly disclosed prior to accepting external Build Requests.
+
 ### Transparency Commitments
 
 - Regular development updates via [channels to be defined]
 - Public treasury wallet addresses: [To be published]
 - Open-source repositories: [To be published]
+- CRG member identities: [To be published prior to external Build Requests]
 
 ---
 
