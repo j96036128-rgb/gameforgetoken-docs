@@ -66,15 +66,21 @@ GameForge restructures early-stage development support around contribution rathe
 
 ### Evaluation Authority
 
-During the pre-token phase, contributions are evaluated by the GameForge Core Review Group (CRG):
+During the pre-token phase, contributions are evaluated by the GameForge Core Review Group (CRG).
 
-- 1–3 accountable maintainers
-- Publicly named or pseudonymous with disclosed credentials
-- Decisions documented transparently
+The CRG is currently composed of a single accountable maintainer:
 
-This model prioritises quality control and accountability over decentralisation theatre.
+- **Jon McMahon** — Founder & Initial Maintainer
 
-Core Review Group members will be disclosed publicly before the first Build Request intake opens, including relevant background or credentials, to ensure accountability during the pre-token phase.
+The CRG is responsible for:
+- Reviewing Build Requests
+- Evaluating contributions
+- Maintaining the participation ledger
+- Publishing coordination and transparency updates
+
+This model prioritises quality control and accountability over decentralisation theatre. Additional CRG members may be added as the ecosystem grows. Any changes to CRG composition will be publicly disclosed.
+
+CRG membership and team accountability are disclosed prior to accepting external Build Requests.
 
 ### What Counts as a Contribution
 
@@ -256,8 +262,15 @@ GameForge aims to increase the quality and sustainability of future Solana launc
 
 ## Team & Accountability
 
-GameForge is led by a small accountable core team with experience across development, coordination, and ecosystem building.
-Core team members will be disclosed publicly prior to the opening of Build Request intake, ensuring accountability during the operational phase.
+### Core Team
+
+**Jon McMahon** — Founder & Initial Maintainer
+
+Jon is the founder and initial maintainer of GameForge Token. The project originated from independent research into play-to-build coordination models for early-stage game developers, with a focus on transparency, non-financial participation, and sustainable ecosystem design. GameForge is currently maintained as a docs-first, pre-mainnet research initiative.
+
+### Accountability
+
+CRG membership and team accountability are disclosed prior to accepting external Build Requests. All coordination activity is documented publicly in the participation ledger and GitHub repositories.
 
 ---
 
@@ -281,9 +294,10 @@ Execution precedes ideology.
 | v0.4 | January 2026 | Contribution model, Build Requests, traction plan |
 | v0.4.1 | January 2026 | CRG disclosure timeline, participation credit definition, team disclosure commitment |
 | v0.4.2 | January 2026 | Added SNS identity reference |
+| v0.4.3 | January 2026 | Named team and CRG accountability disclosure |
 
 ---
 
-*Document Version: 0.4.2 (Draft)*
+*Document Version: 0.4.3 (Draft)*
 
 *Last Updated: January 2026*
