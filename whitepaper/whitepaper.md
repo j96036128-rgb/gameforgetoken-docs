@@ -282,6 +282,22 @@ CRG membership and team accountability are disclosed prior to accepting external
 
 ---
 
+## On-Chain Identity
+
+GameForge Token uses Solana Name Service (SNS) for verifiable on-chain identity.
+
+**Primary SNS identity:** GameForgeToken.sol
+
+This identity is used for:
+
+- Public coordination reference
+- Verification of official project communications
+- Future treasury transparency (when applicable)
+
+No treasury routing or payment addresses are published at this stage. When operational wallets are deployed, addresses will be disclosed publicly and linked to this identity.
+
+---
+
 ## Stop Conditions
 
 GameForge Token is an experiment in coordination, not a guaranteed product.
@@ -346,9 +362,10 @@ Execution precedes ideology.
 | v0.4.4 | January 2026 | Added Stop Conditions for token deployment |
 | v0.4.5 | January 2026 | Added founder statement |
 | v0.4.6 | January 2026 | Added official Telegram coordination channel |
+| v0.4.7 | January 2026 | Added On-Chain Identity section |
 
 ---
 
-*Document Version: 0.4.6 (Draft)*
+*Document Version: 0.4.7 (Draft)*
 
 *Last Updated: January 2026*
