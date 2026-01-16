@@ -37,6 +37,7 @@ This directory records participation in GameForge Build Requests during the pre-
 
 - [Build Request #001 — Structured Prototype Playtesting](build-request-001.md) (Open)
 - [Build Request #004 — External Contributor Onboarding](build-request-004.md) (Open)
+- [Build Request #006 — The Coordination Codex — Sequential Coordination Artifact](build-request-006.md) (Open)
 
 ## Completed Build Requests
 
