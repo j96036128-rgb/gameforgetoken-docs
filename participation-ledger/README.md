@@ -36,6 +36,11 @@ This directory records participation in GameForge Build Requests during the pre-
 ## Current Build Requests
 
 - [Build Request #001 — Structured Prototype Playtesting](build-request-001.md) (Open)
+- [Build Request #004 — External Contributor Onboarding](build-request-004.md) (Open)
+
+## Completed Build Requests
+
+- [Build Request #003 — Reference Demo Playtesting](build-request-003.md) (Completed)
 
 ## Important Notes
 
