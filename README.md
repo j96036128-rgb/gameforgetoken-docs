@@ -70,6 +70,12 @@ Technical notes documenting design decisions, tradeoffs, and open questions.
 
 ---
 
+## Tooling & Process
+
+Some documentation and scaffolding commits are produced with AI assistance under explicit human direction. All coordination decisions, reviews, and ledger entries are human-made.
+
+---
+
 ## 📬 Contact
 
 For questions, collaboration inquiries, or research discussion:

@@ -118,3 +118,9 @@ We do not have solutions to all of these. We have mitigations:
 This note documents a current design choice, not a permanent doctrine. The choice may be wrong. If it is, the failure will be visible and documented.
 
 That visibility is the point.
+
+---
+
+## Disclosure
+
+Some documentation and scaffolding commits are produced with AI assistance under explicit human direction. All coordination decisions, reviews, and ledger entries are human-made.
