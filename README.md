@@ -62,6 +62,14 @@ Reference implementations are coordinated through GameForge but are not owned by
 
 ---
 
+## Design Notes
+
+Technical notes documenting design decisions, tradeoffs, and open questions.
+
+- [Design Note 001 — Why We Avoid Automation](design-notes/DESIGN-NOTE-001-Why-We-Avoid-Automation.md)
+
+---
+
 ## 📬 Contact
 
 For questions, collaboration inquiries, or research discussion:
