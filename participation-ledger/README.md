@@ -58,6 +58,7 @@ Build Requests, reviews, and challenges follow documented governance rules:
 
 - [GOVERNANCE.md](../GameForgeToken-Docs/GOVERNANCE.md) — Who holds authority, how decisions are made, and how to challenge them
 - [REVIEW-GUIDELINES.md](../GameForgeToken-Docs/REVIEW-GUIDELINES.md) — How reviews are conducted, evaluated, and attributed
+- [Contributors](../GameForgeToken-Docs/contributors/) — Profiles of people with accepted work
 
 All ledger entries result from processes defined in these documents.
 

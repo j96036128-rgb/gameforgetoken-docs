@@ -69,6 +69,7 @@ All coordination decisions follow documented governance rules:
 - [GOVERNANCE.md](GameForgeToken-Docs/GOVERNANCE.md) — Authority, constraints, and challenge process
 - [REVIEW-GUIDELINES.md](GameForgeToken-Docs/REVIEW-GUIDELINES.md) — Review standards and attribution
 - [Participation Ledger](participation-ledger/) — Record of all accepted contributions
+- [Contributors](GameForgeToken-Docs/contributors/) — Profiles of people with accepted work
 
 All acceptance, rejection, and escalation follows these documents.
 
