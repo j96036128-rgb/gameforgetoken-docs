@@ -75,6 +75,12 @@ All acceptance, rejection, and escalation follows these documents.
 
 ---
 
+## Open Questions
+
+- [Good Problems](GameForgeToken-Docs/GOOD-PROBLEMS.md) — Unresolved questions in coordination design
+
+---
+
 ## Design Notes
 
 Technical notes documenting design decisions, tradeoffs, and open questions.

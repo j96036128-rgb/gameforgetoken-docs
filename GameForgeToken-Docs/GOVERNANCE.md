@@ -189,6 +189,12 @@ Governance rules may evolve. Any change requires:
 
 ---
 
+## Related Documents
+
+- [GOOD-PROBLEMS.md](GOOD-PROBLEMS.md) — Open questions in coordination design (advisory, not authoritative)
+
+---
+
 ## Document History
 
 - **Initial version:** Authored by Jon McMahon during system bootstrap
