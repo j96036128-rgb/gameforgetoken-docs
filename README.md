@@ -62,6 +62,18 @@ Reference implementations are coordinated through GameForge but are not owned by
 
 ---
 
+## How Decisions Are Made
+
+All coordination decisions follow documented governance rules:
+
+- [GOVERNANCE.md](GameForgeToken-Docs/GOVERNANCE.md) — Authority, constraints, and challenge process
+- [REVIEW-GUIDELINES.md](GameForgeToken-Docs/REVIEW-GUIDELINES.md) — Review standards and attribution
+- [Participation Ledger](participation-ledger/) — Record of all accepted contributions
+
+All acceptance, rejection, and escalation follows these documents.
+
+---
+
 ## Design Notes
 
 Technical notes documenting design decisions, tradeoffs, and open questions.

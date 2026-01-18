@@ -273,6 +273,17 @@ This whitepaper is provided for informational purposes only and does not constit
 
 ---
 
+## Governance & Review Process
+
+Authority, review procedures, and escalation paths are documented publicly:
+
+- [GOVERNANCE.md](GameForgeToken-Docs/GOVERNANCE.md) — Who holds authority, how it is constrained, and how decisions can be challenged
+- [REVIEW-GUIDELINES.md](GameForgeToken-Docs/REVIEW-GUIDELINES.md) — How review work is conducted, evaluated, and attributed
+
+All acceptance, rejection, and escalation decisions follow these documents.
+
+---
+
 *Document Version: 0.1 (Draft)*
 
 *Last Updated: [Date to be inserted]*

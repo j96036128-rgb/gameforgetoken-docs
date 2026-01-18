@@ -52,6 +52,17 @@ This directory records participation in GameForge Build Requests during the pre-
 
 All entries are recorded manually by the GameForge Core Review Group.
 
+## Authority & Escalation
+
+Build Requests, reviews, and challenges follow documented governance rules:
+
+- [GOVERNANCE.md](../GameForgeToken-Docs/GOVERNANCE.md) — Who holds authority, how decisions are made, and how to challenge them
+- [REVIEW-GUIDELINES.md](../GameForgeToken-Docs/REVIEW-GUIDELINES.md) — How reviews are conducted, evaluated, and attributed
+
+All ledger entries result from processes defined in these documents.
+
+---
+
 ## Links
 
 - [Whitepaper](../whitepaper/whitepaper.md)
