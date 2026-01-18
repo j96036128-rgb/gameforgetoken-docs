@@ -192,6 +192,7 @@ Governance rules may evolve. Any change requires:
 ## Related Documents
 
 - [GOOD-PROBLEMS.md](GOOD-PROBLEMS.md) — Open questions in coordination design (advisory, not authoritative)
+- [FAILURES.md](FAILURES.md) — Public record of what went wrong and what was learned
 
 ---
 

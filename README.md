@@ -78,6 +78,7 @@ All acceptance, rejection, and escalation follows these documents.
 ## Open Questions
 
 - [Good Problems](GameForgeToken-Docs/GOOD-PROBLEMS.md) — Unresolved questions in coordination design
+- [Failure Log](GameForgeToken-Docs/FAILURES.md) — What went wrong and what we learned
 
 ---
 
